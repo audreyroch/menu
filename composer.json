@@ -1,48 +1,47 @@
 {
-    "name": "fooman/common",
-    "type": "magento-module",
-    "license": "OSL-3.0",
-    "homepage": "https://github.com/fooman/common",
-    "description": "Extension for Fooman common code.",
-    "authors": [
-        {
-            "name": "Kristof Ringleff",
-            "email": "kristof@fooman.co.nz"
-        }
-    ],
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
-    "extra": {
-        "map": [
-            [
-                "app/code/community/Fooman/Common/",
-                "app/code/community/Fooman/Common/"
-            ],
-            [
-                "app/design/adminhtml/default/default/layout/fooman_common.xml",
-                "app/design/adminhtml/default/default/layout/fooman_common.xml"
-            ],
-            [
-                "app/design/adminhtml/default/default/template/fooman/common/",
-                "app/design/adminhtml/default/default/template/fooman/common/"
-            ],
-            [
-                "app/etc/modules/Fooman_Common.xml",
-                "app/etc/modules/Fooman_Common.xml"
-            ],
-            [
-                "app/locale/de_De/Fooman_Common.csv",
-                "app/locale/de_De/Fooman_Common.csv"
-            ],
-            [
-                "app/locale/en_US/Fooman_Common.csv",
-                "app/locale/en_US/Fooman_Common.csv"
-            ],
-            [
-                "app/locale/it_IT/Fooman_Common.csv",
-                "app/locale/it_IT/Fooman_Common.csv"
-            ]
-        ]
-    }
+	"name" : "Dedaluvia/Menu",
+	"type" : "magento-module",
+	"license" : "OSL-3.0",
+	"homepage" : "https://github.com/audreyroch/menu",
+	"description" : "Extension for Fooman common code.",
+	"authors" : [{
+			"name" : "Kristof Ringleff",
+			"email" : "kristof@fooman.co.nz"
+		}
+	],
+	"require" : {
+		"magento-hackathon/magento-composer-installer" : "*"
+	},
+	"extra" : {
+		"map" : [
+[
+				"app/code/community/Dedaluvia/Menu/",
+				"app/code/community/Dedaluvia/Menu/"
+			],
+[
+				"app/design/adminhtml/default/default/layout/dedaluvia_menu.xml",
+				"app/design/adminhtml/default/default/layout/dedaluvia_menu.xml"
+			],
+[
+				"app/design/adminhtml/default/default/template/dedaluvia/menu/",
+				"app/design/adminhtml/default/default/template/dedaluvia/menu/"
+			],
+[
+				"app/etc/modules/Dedaluvia_Menu.xml",
+				"app/etc/modules/Dedaluvia_Menu.xml"
+			],
+[
+				"app/locale/de_De/Dedaluvia_Menu.csv",
+				"app/locale/de_De/Dedaluvia_Menu.csv"
+			],
+[
+				"app/locale/en_US/Dedaluvia_Menu.csv",
+				"app/locale/en_US/Dedaluvia_Menu.csv"
+			],
+[
+				"app/locale/it_IT/Dedaluvia_Menu.csv",
+				"app/locale/it_IT/Dedaluvia_Menu.csv"
+			]
+		]
+	}
 }
