@@ -1,4 +1,4 @@
-/app/code/local/Dedaluvia/Menu/                                            /app/code/community/Dedaluvia/Menu/
+/app/code/local/Dedaluvia/Menu/                                            /app/code/local/Dedaluvia/Menu/
 /app/design/adminhtml/default/default/layout/dedaluvia_menu.xml                /app/design/adminhtml/default/default/layout/dedaluvia_menu.xml
 /app/design/adminhtml/default/default/template/dedaluvia/menu/                 /app/design/adminhtml/default/default/template/dedaluvia/menu/
 /app/etc/modules/Dedaluvia_Menu.xml                                            /app/etc/modules/Dedaluvia_Menu.xml
