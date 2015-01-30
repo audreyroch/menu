@@ -30,6 +30,10 @@
 				"app/etc/modules/Dedaluvia_Menu.xml",
 				"app/etc/modules/Dedaluvia_Menu.xml"
 			],
+			[
+				"app/locale/fr_FR/Dedaluvia_Menu.csv",
+				"app/locale/fr_FR/Dedaluvia_Menu.csv"
+			],
 [
 				"app/locale/de_De/Dedaluvia_Menu.csv",
 				"app/locale/de_De/Dedaluvia_Menu.csv"
