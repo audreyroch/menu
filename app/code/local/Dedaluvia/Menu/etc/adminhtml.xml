@@ -15,7 +15,7 @@
                 <children>
                     <dedaluviamenu translate="title" module="dedaluviamenu">
                         <title>Dedaluvia menu Selftests</title>
-                        <sort_order>-100</sort_order>
+                        <sort_order>-200</sort_order>
                     </dedaluviamenu>
                     <system>
                         <children>
