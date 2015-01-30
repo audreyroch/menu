@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * @author     Houssou
+ * @package    Dedaluvia_Menu
+ * @copyright  Copyright (c) 20015 Dedaluvia Limited (http://www.fooman.co.nz)
+ */
+ -->
+<config>
+    <modules>
+        <Dedaluvia_Menu>
+            <version>1.2.5</version>
+        </Dedaluvia_Menu>
+    </modules>
+    <global>
+        <blocks>
+            <dedaluviamenu>
+                <class>Dedaluvia_Menu_Block</class>
+            </dedaluviamenu>
+        </blocks>
+        <models>
+           <dedaluviamenu>
+                <class>Dedaluvia_Menu_Model</class>
+            </dedaluviamenu>
+        </models>
+        <helpers>
+            <dedaluviamenu>
+                <class>Dedaluvia_Menu_Helper</class>
+            </dedaluviamenu>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <dedaluviamenu after="Mage_Adminhtml">Dedaluvia_Menu_Adminhtml</dedaluviamenu>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <phpunit>
+        <suite>
+            <modules>
+                <Dedaluvia_Menu/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>

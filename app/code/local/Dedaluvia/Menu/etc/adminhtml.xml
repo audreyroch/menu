@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <adminhtml>
+        <layout>
+            <updates>
+                <dedaluviamenu>
+                    <file>dedaluvia_menu.xml</file>
+                </dedaluviamenu>
+             </updates>
+        </layout>
+    </adminhtml>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <dedaluviamenu translate="title" module="dedaluviamenu">
+                        <title>Dedaluvia menu Selftests</title>
+                        <sort_order>-100</sort_order>
+                    </dedaluviamenu>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <dedaluviamenu translate="title" module="dedaluviamenu">
+                                        <title>Dedaluvia</title>
+                                        <sort_order>50</sort_order>
+                                    </dedaluviamenu>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

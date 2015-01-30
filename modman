@@ -1,0 +1,7 @@
+/app/code/local/Dedaluvia/Menu/                                            /app/code/community/Dedaluvia/Menu/
+/app/design/adminhtml/default/default/layout/dedaluvia_menu.xml                /app/design/adminhtml/default/default/layout/dedaluvia_menu.xml
+/app/design/adminhtml/default/default/template/dedaluvia/menu/                 /app/design/adminhtml/default/default/template/dedaluvia/menu/
+/app/etc/modules/Dedaluvia_Menu.xml                                            /app/etc/modules/Dedaluvia_Menu.xml
+/app/locale/de_De/Dedaluvia_Menu.csv                                           /app/locale/de_De/Dedaluvia_Menu.csv
+/app/locale/en_US/Dedaluvia_Menu.csv                                           /app/locale/en_US/Dedaluvia_Menu.csv
+/app/locale/it_IT/Dedaluvia_Menu.csv                                           /app/locale/it_IT/Dedaluvia_Menu.csv
