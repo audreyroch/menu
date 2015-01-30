@@ -15,8 +15,8 @@
 	"extra" : {
 		"map" : [
 [
-				"app/code/community/Dedaluvia/Menu/",
-				"app/code/community/Dedaluvia/Menu/"
+				"app/code/local/Dedaluvia/Menu/",
+				"app/code/local/Dedaluvia/Menu/"
 			],
 [
 				"app/design/adminhtml/default/default/layout/dedaluvia_menu.xml",
